@@ -283,16 +283,13 @@ main {
     color: #d42423;
 }
 
-.service-section i {
+.service-icon {
     color: #d42423;
     font-size: 4rem;
 }
 
 .service-section h2 {
     font-size: 2rem;
-}
-
-.service-section h2 {
     color: #d42423;
 }
 

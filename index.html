@@ -21,7 +21,14 @@
 </head>
 
 <body>
-    <header class="header">
+    <!-- Navigation to top icon -->
+    <div class="nav-top-icon d-none">
+        <a href="#screen-top"><span class="fas fa-arrow-up fa-2x text-white"></span></a>
+    </div>
+    <!-- Navigation top icon Ends -->
+
+    <!-- header section starts -->
+    <header id="screen-top" class="header">
         <div class="header-overlay">
             <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-dark">
@@ -35,10 +42,10 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="about.html">About Us</a>
                         </li>
                     </ul>
                     <span class="navbar-text text-white font-weight-bold">
@@ -62,9 +69,14 @@
             </main>
         </div>
     </header>
-    <!-- header ends -->
+    <!-- header section ends -->
     <hr style="width: 80%;margin-top: 3rem;margin-left: auto;margin-right: auto;">
+
+
+    <!-- main section of the site starts -->
     <main>
+
+        <!-- Most favorite section starts here -->
         <div class="top-rated-items">
             <div class="container">
                 <div class="top-rated-title text-center">
@@ -111,8 +123,11 @@
                 </div>
             </div>
         </div>
+        <!-- most favorite section ends here -->
         <hr style="width: 80%;margin-top: 3rem;margin-left: auto;margin-right: auto;">
 
+
+        <!-- subscription page starts here -->
         <div class="subscription">
             <div class="subs-overlay">
                 <div class="container-fluid bg-image">
@@ -130,7 +145,11 @@
                 </div>
             </div>
         </div>
+        <!-- subscription ends herer -->
+
         <hr style="width: 80%;margin-top: 3rem;margin-left: auto;margin-right: auto;">
+
+        <!-- click for fun tab starts here -->
         <div class="giphy-tab">
             <button type="button" class="btn btn-light">Click for Fun</button>
             <div class="row justify-content-around text-center d-none">
@@ -140,7 +159,11 @@
                 <div class="col-12 col-sm-6 col-md-3"><img src="./images/gif/unicorn.gif" class="img-fluid" alt=""></div>
             </div>
         </div>
+        <!-- click for fun ends here -->
+
         <hr style="width: 80%;margin-top: 3rem;margin-left: auto;margin-right: auto;">
+
+        <!-- service section starts here -->
         <div class="service-section">
             <div class="container">
                 <h1 class="text-center mt-5 mb-5">OUR SERVICES</h1>
@@ -169,6 +192,7 @@
                 </div>
             </div>
         </div>
+        <!-- service seciton ends here -->
         <hr style="width: 80%;margin-top: 3rem;margin-left: auto;margin-right: auto;">
 
         <!-- carousel section -->
@@ -228,7 +252,10 @@
                 <span class="carousel-control-next-icon"></span>
             </a>
         </div>
+        <!-- carousel section ends here -->
+
         <hr style="width: 80%;margin-top: 3rem;margin-left: auto;margin-right: auto;">
+
         <!-- info section -->
         <div class="info-section bg-light">
             <div class="container">
@@ -278,7 +305,10 @@
             </div>
 
         </div>
-        <!-- section -->
+        <!-- info section ends here -->
+
+
+        <!-- our team section  starts here-->
         <section class="our-webcoderskull padding-lg">
             <div class="container">
                 <div class="row heading heading-icon">
@@ -336,8 +366,9 @@
                 </ul>
             </div>
         </section>
-        <!-- discount section -->
+        <!-- our team section ends here -->
 
+        <!-- discount section -->
         <div class="bg-light discount-section">
             <div class="container">
                 <h1 class="text-center">SPECIAL OFFERS</h1>
@@ -363,6 +394,7 @@
                 </div>
             </div>
         </div>
+        <!-- discount section ends here -->
 
         <!--footer -->
         <footer class=" footer bg-dark">
@@ -404,8 +436,11 @@
                 <div class="text-center copyright">&copy;&nbsp;All Rights are Reserved To No one , 2021</div>
             </div>
         </footer>
-
+        <!-- footer ends here -->
     </main>
+    <!-- end of the main section -->
+    <!-- can exclude footer section from the main tag -->
+
     <!-- link Scripts -->
     <script>
         const BtnCFF = document.querySelector('.giphy-tab button');;
@@ -414,6 +449,7 @@
             rowItem.classList.toggle('d-none')
         })
     </script>
+    <script src="./js/main.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js " data-auto-replace-svg="nest "></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>

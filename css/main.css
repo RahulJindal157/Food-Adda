@@ -8,6 +8,10 @@ font-family: 'Roboto', sans-serif; */
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: lightblue;
 }
@@ -21,6 +25,33 @@ a {
 
 
 /* Variables */
+
+
+/* top-nav-icon */
+
+.nav-top-icon {
+    z-index: 1;
+    background-color: #0275d8;
+    border-radius: 5px;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    position: fixed;
+    animation: topNavIcon 1.5s linear infinite;
+}
+
+@keyframes topNavIcon {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 
 /* header */
@@ -236,14 +267,8 @@ main {
     0% {
         transform: scale(1);
     }
-    25% {
-        transform: scale(1.025);
-    }
     50% {
         transform: scale(1.05);
-    }
-    75% {
-        transform: scale(1.025);
     }
     100% {
         transform: scale(1);
@@ -562,25 +587,20 @@ ul {
 }
 
 .login-section .row img {
-    height: 60vh;
+    /* padding-top: 10rem; */
+    height: 40vh;
     animation: example 10s linear infinite;
 }
 
 @keyframes example {
     0% {
-        transform: rotateZ(0);
-    }
-    25% {
-        transform: rotateZ(2.5deg);
+        transform: scale(1);
     }
     50% {
-        transform: rotateZ(0);
-    }
-    75% {
-        transform: rotateZ(-2.5deg);
+        transform: scale(1.1);
     }
     100% {
-        transform: rotateZ(0);
+        transform: scale(1);
     }
 }
 
@@ -591,6 +611,7 @@ ul {
 }
 
 .login-section .avatar-div img {
-    height: 10vh;
-    color: purple;
+    width: 50%;
+    height: 8vh;
+    /* color: purple; */
 }

@@ -552,3 +552,45 @@ ul {
     font-size: 1.1rem;
     padding: 3rem 0 3rem 0;
 }
+
+
+/*login.html css*/
+
+.login-section {
+    height: 100%;
+    padding: 6rem 0;
+}
+
+.login-section .row img {
+    height: 60vh;
+    animation: example 10s linear infinite;
+}
+
+@keyframes example {
+    0% {
+        transform: rotateZ(0);
+    }
+    25% {
+        transform: rotateZ(2.5deg);
+    }
+    50% {
+        transform: rotateZ(0);
+    }
+    75% {
+        transform: rotateZ(-2.5deg);
+    }
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+.row-content {
+    margin: 0 auto;
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+}
+
+.login-section .avatar-div img {
+    height: 10vh;
+    color: purple;
+}
